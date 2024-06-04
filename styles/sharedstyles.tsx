@@ -16,6 +16,8 @@ const Main = styled.main`
   justify-content: center;
   align-items: center;
   max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
 `
 
 const Title = styled.h1`
