@@ -24,11 +24,10 @@ export default function App({ Component, pageProps }: AppProps) {
       <Provider store={store}>
         <ApolloProvider client={client}>
           <ThemeProvider theme={theme}>
-            {/* <Head>
-          <title>Amazon Clone</title>
-          <meta name="description" content="Amazon Clone" />
-          <link rel="icon" href="/favicon.ico" />
-        </Head> */}
+            <Head>
+              <title>Amazon Clone</title>
+              <meta name="description" content="Amazon Clone" />
+            </Head>
             <GlobalStyle />
             <Header />
             <Component {...pageProps} />
