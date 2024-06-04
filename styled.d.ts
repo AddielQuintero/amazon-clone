@@ -1,10 +1,13 @@
-import "styled-components";
+import 'styled-components'
 
-declare module "styled-components" {
+declare module 'styled-components' {
   export interface DefaultTheme {
     colors: {
-      primary: string;
-      secondary: string;
-    };
+      black: string
+      white: string
+      background: string
+      orange: string
+      navBg: string
+    }
   }
 }
